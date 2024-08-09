@@ -5,6 +5,7 @@ buildscript {
         gradlePluginPortal()
         google()
         mavenCentral()
+        maven { url "https://repo.huaweicloud.com/repository/maven/" }
         maven { url "https://maven.aliyun.com/repository/public/" }
         maven { url "https://jitpack.io" }
         maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
@@ -23,6 +24,7 @@ allprojects {
         gradlePluginPortal()
         google()
         mavenCentral()
+        maven { url "https://repo.huaweicloud.com/repository/maven/" }
         maven { url "https://maven.aliyun.com/repository/public/" }
         maven { url "https://jitpack.io" }
         maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
